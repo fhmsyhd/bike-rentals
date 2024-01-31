@@ -7,7 +7,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Menyiapkan data
-data = pd.read_csv("day.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/fhmsyhd/bike-rentals/master/day.csv")
 
 data['mnth'] = data['mnth'].map({
     1: 'Jan', 2: 'Feb', 3: 'Mar', 4: 'Apr', 5: 'May', 6: 'Jun',
